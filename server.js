@@ -41,7 +41,7 @@ const server = http.createServer((req,res)=> {
     }
     res.writeHead(404, { 'Content-type': 'application/json' })
     res.end(JSON.stringify({
-        response: 'failed', 
+        response: 'failed',
         data: null,
         message:'resource was not found'
     }))
